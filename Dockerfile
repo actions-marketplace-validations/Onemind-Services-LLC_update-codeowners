@@ -1,4 +1,4 @@
-FROM casperdcl/git-fame:1.12.2
+FROM casperdcl/git-fame:1.15.2
 
 RUN apk update && apk add --no-cache jq curl
 

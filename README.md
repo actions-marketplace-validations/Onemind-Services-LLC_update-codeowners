@@ -1,10 +1,10 @@
 # update code owners action
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/gofunky/update-codeowners/build/master?style=for-the-badge)](https://github.com/gofunky/update-codeowners/actions)
-[![Renovate Status](https://img.shields.io/badge/renovate-enabled-green?style=for-the-badge&logo=renovatebot&color=1a1f6c)](https://app.renovatebot.com/dashboard#github/gofunky/update-codeowners)
-[![CodeFactor](https://www.codefactor.io/repository/github/gofunky/update-codeowners/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/gofunky/update-codeowners)
-[![GitHub License](https://img.shields.io/github/license/gofunky/update-codeowners.svg?style=for-the-badge)](https://github.com/gofunky/update-codeowners/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/gofunky/update-codeowners.svg?style=for-the-badge&color=9cf)](https://github.com/gofunky/update-codeowners/commits/master)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Onemind-Services-LLC/update-codeowners/build/master?style=for-the-badge)](https://github.com/Onemind-Services-LLC/update-codeowners/actions)
+[![Renovate Status](https://img.shields.io/badge/renovate-enabled-green?style=for-the-badge&logo=renovatebot&color=1a1f6c)](https://app.renovatebot.com/dashboard#github/Onemind-Services-LLC/update-codeowners)
+[![CodeFactor](https://www.codefactor.io/repository/github/Onemind-Services-LLC/update-codeowners/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/Onemind-Services-LLC/update-codeowners)
+[![GitHub License](https://img.shields.io/github/license/Onemind-Services-LLC/update-codeowners.svg?style=for-the-badge)](https://github.com/Onemind-Services-LLC/update-codeowners/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Onemind-Services-LLC/update-codeowners.svg?style=for-the-badge&color=9cf)](https://github.com/Onemind-Services-LLC/update-codeowners/commits/master)
 
 This is a [GitHub Action](https://github.com/features/actions) that uses [git-fame](https://pypi.org/project/git-fame) to generate and update GitHub's CODEOWNERS file based on the git fame of individual files.
 
@@ -103,7 +103,7 @@ jobs:
         # the token is necessary for checks to rerun after auto commit
         token: ${{ secrets.PAT }}
     - name: update code owners
-      uses: gofunky/update-codeowners@v0.3.1
+      uses: Onemind-Services-LLC/update-codeowners@v0.4.0
       with:
         distribution: 25
         username: true
